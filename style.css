@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 80px;
+    background: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar li a i {
+    margin-top: 4px;
+}
+
+nav .phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .phone > i {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav .phone > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+nav .phone > div > p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+nav .phone > div > span {
+    color: orange;
+    font-size: 16px;
+}
+
+.card1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),;
+    background-position: center;
+    height: 450px;
+    width: 1100px;
+    background-repeat: no-repeat;
+}
+
+.card1 h1 {
+    color: orange;
+}
+
+.card1 h5 {
+    color: green;
+}
+
+.card1-info .card1-btn {
+    color: gold;
+    border: 2px solid blue;
+    background: none;
+}
+
+.card1 .card1-info {
+    padding-top: 190px;
+    justify-content: center;
+    text-align: center;
+    line-height: 37px;
+}
+
+.card1-info button {
+    display: inline-block;
+    background: orange;
+    height: 30px;
+    width: 115px;
+    border: none;
+}
+
+.card2 {
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: rgb(175, 170, 170);
+}
+
+.card2 .card2-info1 {
+    width: 250px;
+    text-align: center;
+}
+
+.card2 .card2-info2 {
+    width: 250px;
+    text-align: center;
+}
+
+.card2 .card2-info3 {
+    width: 250px;
+    text-align: center;
+}
+
+.card3 {
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card3 > h1 {
+    text-align: center;
+}
+
+.card3 > hr {
+    width: 35px;
+    background: orange;
+    color: orange;
+}
+
+.card3-info {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card3-info img {
+    width: 220px;
+}
+
+.card3-info .card3-info1 {
+    width: 220px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.card3-info .card3-info2 {
+    width: 220px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.card3-info .card3-info3 {
+    width: 220px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.card4 {
+    width: 100%;
+    padding: 40px 100px 40px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card4 p {
+    color: white;
+}
+
+.card4 h1 {
+    color: orange;
+}
+
+.card5 {
+    width: 100%;
+    padding: 40px 30px;
+}
+
+.card5-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card5 img {
+    width: 330px;
+    height: 250px;
+}
+
+.card6 {
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 40px 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card6-info2 {
+    margin-top: 60px;
+    width: 290px;
+    height: 300px;
+    background: white;
+    height: 100px;
+}
+
+.card6-info1 h3 {
+    color: orange;
+}
+
+.card6-info1 {
+    width: 600px;
+}
+
+.card6-info2 .inp {
+    height: 22px;
+    width: 120px;
+    background: rgb(192, 191, 191);
+    border: none;
+}
+
+.input {
+    height: 22px;
+    width: 120px;
+    border: none;
+    background: rgb(192, 191, 191);
+}
+
+.card6-info2 button {
+    height: 22px;
+    width: 80px;
+    border: none;
+    border-radius: 0;
+    background: rgb(192, 191, 191);
+}
+
+.card6-info1 p {
+    font-size: 15px;
+}
+
+.card6-info1 {
+    color: yellow;
+}
+.card7 {
+    width: 400px;
+    background: #fff;
+    color: darkgray;
+    border-radius: 5px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TIMES {
+    width: 100%;
+    padding: 80px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.TIMES-2{
+    width: 100%;
+    padding: 80px 100px;
+    background: black;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
